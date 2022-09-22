@@ -11,7 +11,7 @@
 }}
 @endif
 
-<center><h4>Escoja la Remesa</h4></center>
+<center><h4>Escoja la Remesa y la Gestión</h4></center>
         <form action="{{ url('/show')}}" method="GET" enctype="multipart/form-data">
         @csrf
         <div class="row">
